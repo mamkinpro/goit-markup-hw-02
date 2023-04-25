@@ -1,6 +1,71 @@
 body {
-  font-family: Roboto;
+  font-family: "Roboto","Raleway",sans-serif;
+  color:#2E2F42;
 }
+.logo{
+  font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.link-adress{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #434455;
+}
+.link-adress:hover,
+.link-adress:focus{
+  color:#404BBF;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+.hero{
+  background-color: #2E2F42;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color:#FFFFFF;
+}
+.hero-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  color: #FFFFFF;
+  background-color:#4D5AE5;
+}
+.advantages-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.advantages-text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+
+}
+
+
+
+
+
+
+
+
+
+
 .link {
   color: #2e2f42;
 }
