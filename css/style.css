@@ -6,10 +6,12 @@
   --secondary-background-color: #2e2f42;
   --color-btn-filter: #4D5AE5;
   --bg-color-btn-filter :#F4F4FD;}
+
+
 body {
   font-family: "Roboto",sans-serif;
   color: var(--primary-text-color);
-  background-color: var (--primary-background-color);
+  background-color: var(--primary-background-color);
 }
 .logo {
     font-family: 'Raleway';
@@ -21,10 +23,10 @@ body {
       align-items: center;
       letter-spacing: 0.03em;
       text-transform: uppercase;
-      color: var (--logo-text-color);
+      color: var(--logo-text-color);
 }
 .logo-secondary-part{
-  color: var (--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 .list{
 
@@ -85,7 +87,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var (--secondary-text-color)
+    color: var(--secondary-text-color)
 }
 .advantages-text{
   font-weight: 400;
@@ -124,7 +126,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var (--secondary-text-color)
+    color: var(--secondary-text-color)
 }
 .crewman-profession{
   font-weight: 400;
@@ -136,7 +138,7 @@ body {
 }
 .footer{
 
-background-color: var (--secondary-background-color);
+background-color: var(--secondary-background-color);
 }
 .link {
   font-weight: 500;
@@ -174,7 +176,7 @@ background-color: var (--secondary-background-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var (--secondary-text-color);
+    color: var(--secondary-text-color);
 }
 .product-type{
   font-weight: 400;
