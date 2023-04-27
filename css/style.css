@@ -26,10 +26,12 @@ body {
     color: var(--logo-text-color);
 }
 .logo-secodary-part{
-  color:var(--secondary-text-color)
+  color: #f4f4fd;
 }
 .list{
+  
   list-style: none;
+
 }
 .link-adress{
     font-style: normal;
@@ -85,6 +87,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
 }
 .advantages-text{
   font-weight: 400;
@@ -145,7 +148,12 @@ background-color: var(--secondary-background-color);
 
 
 .link {
-  text-decoration:none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--secondary-text-color)
 }
 .link:hover,
 .link:focus {
