@@ -14,7 +14,7 @@ body {
   background-color: var(--primary-background-color);
 }
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway",sans-serif;
       font-style: normal;
       font-weight: 800;
       font-size: 18px;
@@ -25,14 +25,18 @@ body {
       text-transform: uppercase;
       color: var(--logo-text-color);
 }
-.logo-secondary-part{
+.logo-secondary-part-header{
   color: var(--secondary-text-color);
+}
+.logo-secondary-part-footer{
+  color: #f4f4fd;
 }
 .list{
 
   list-style: none;
 
 }
+
 .link-adress{
   font-style: normal;
     font-weight: 400;
@@ -45,12 +49,6 @@ body {
 .link-adress:hover,
 .link-adress:focus{
     color: #404BBF ;
-}
-.nav-link{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color:  #434455;
 }
 .address-list{
   font-style: normal;
@@ -140,16 +138,21 @@ body {
 
 background-color: var(--secondary-background-color);
 }
+/*vfont-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--logo-text-color);*/
 .link {
-  font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--secondary-text-color)
+  text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.list:hover,
+.list:focus {
   color: #404bbf;
 }
 .button-filter {
