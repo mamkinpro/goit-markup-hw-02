@@ -145,9 +145,9 @@ background-color: var(--secondary-background-color);
 .link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
-  color: #404bbf;
+.list-item:hover,
+.list-item:focus {
+  color: #404BBF;
 }
 .button-filter {
 
