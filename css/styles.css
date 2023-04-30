@@ -20,8 +20,6 @@ body {
       font-weight: 800;
       font-size: 18px;
       line-height: 1.17;
-      display: flex;
-      align-items: center;
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: var(--logo-text-color);
@@ -44,7 +42,6 @@ body {
 }
 .link-adress{
   font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
@@ -62,7 +59,6 @@ body {
   background-color: #2E2F42;
 }
 .hero-title{
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -93,26 +89,21 @@ body {
     color: var(--secondary-text-color)
 }
 .advantages-text{
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .our-works-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
 }
 .our-team-title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
@@ -127,21 +118,24 @@ body {
   font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color)
 }
 .crewman-profession{
-  font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 .footer{
 
 background-color: var(--secondary-background-color);
+}
+.p-footer{
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 .link {
   text-decoration: none;
@@ -177,7 +171,6 @@ background-color: var(--secondary-background-color);
     color: var(--secondary-text-color);
 }
 .product-type{
-  font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
